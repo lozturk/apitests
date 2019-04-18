@@ -24,7 +24,7 @@ public class SampleApiTests {
 
     @Test
     public void sampleGetTestForPosts(){
-        //verify response status code 200, Content-Type json and body contains title:'qui est esse'
+        //verify response status code 200, Content-Type json and body contains title:'ea molestias quasi exercitationem repellat qui ipsa sit aut'
         //check header content type
         Response response = RestAssured.get("/posts");
         response.then().log()
