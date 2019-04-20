@@ -1,4 +1,4 @@
-package com.merchantesolutions.Utilities;
+package com.merchantesolutions.utilities;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,16 +1,13 @@
 package com.merchantesolutions.tests;
 
 import com.github.javafaker.Faker;
-import com.merchantesolutions.Pages.DashBoardPage;
-import com.merchantesolutions.Pages.UsersPage;
-import com.merchantesolutions.Utilities.Driver;
-import com.merchantesolutions.Utilities.TestBase;
+import com.merchantesolutions.pages.DashBoardPage;
+import com.merchantesolutions.pages.UsersPage;
+import com.merchantesolutions.utilities.Driver;
+import com.merchantesolutions.utilities.TestBase;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.WebElement;
-
-import java.util.List;
 
 public class NewUserScreen extends TestBase {
 

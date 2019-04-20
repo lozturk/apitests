@@ -1,8 +1,8 @@
 package com.merchantesolutions.tests;
 
-import com.merchantesolutions.Pages.DashBoardPage;
-import com.merchantesolutions.Pages.UsersPage;
-import com.merchantesolutions.Utilities.TestBase;
+import com.merchantesolutions.pages.DashBoardPage;
+import com.merchantesolutions.pages.UsersPage;
+import com.merchantesolutions.utilities.TestBase;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

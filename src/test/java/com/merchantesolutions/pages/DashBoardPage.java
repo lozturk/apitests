@@ -1,8 +1,6 @@
-package com.merchantesolutions.Pages;
+package com.merchantesolutions.pages;
 
-import com.merchantesolutions.Utilities.ConfigurationReader;
-import com.merchantesolutions.Utilities.Driver;
-import com.merchantesolutions.Utilities.TestBase;
+import com.merchantesolutions.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

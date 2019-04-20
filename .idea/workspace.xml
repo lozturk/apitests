@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="917b1015-8a9b-4877-ad78-de5e2b23adbd" name="Default Changelist" comment="" />
+    <list default="true" id="917b1015-8a9b-4877-ad78-de5e2b23adbd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/Pages/DashBoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/pages/DashBoardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/Pages/UsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/pages/UsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/utilities/ConfigurationReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/NewUserScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/NewUserScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/SampleApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/SampleApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/UserFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/UserFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Pages/DashBoardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Pages/DashBoardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Pages/UsersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Pages/UsersPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Utilities/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Utilities/ConfigurationReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Utilities/Driver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/Utilities/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/tests/NewUserScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/tests/NewUserScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/tests/SampleApiTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/tests/SampleApiTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/tests/UserFilterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/merchantesolutions/tests/UserFilterTest.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,8 +37,41 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/SampleApiTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+            <state relative-caret-position="225">
+              <caret line="83" column="63" lean-forward="true" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/pages/DashBoardPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/pages/UsersPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/utilities/Driver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -30,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/NewUserScreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="901">
-              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="731">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/UserFilterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="595">
+              <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,6 +112,9 @@
         <option value="AnnotationType" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -82,6 +137,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/FixMethodOrder.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/NewUserScreen.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/merchantesolutions/pages/UsersPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/SampleApiTests.java" />
       </list>
     </option>
@@ -94,17 +150,19 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,12 +196,23 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="merchantesolutions" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="apitests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="apitests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="merchantesolutions" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -165,22 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SampleApiTests">
-    <configuration name="NewUserScreen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="apitests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.merchantesolutions.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.merchantesolutions.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.merchantesolutions.tests.NewUserScreen" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SampleApiTests.samplePutTestForUsers">
     <configuration name="SampleApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="apitests" />
       <extension name="coverage">
@@ -192,6 +246,22 @@
       <option name="PACKAGE_NAME" value="com.merchantesolutions.tests" />
       <option name="MAIN_CLASS_NAME" value="com.merchantesolutions.tests.SampleApiTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleApiTests.sampleGetTestForPosts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apitests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.merchantesolutions.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.merchantesolutions.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.merchantesolutions.tests.SampleApiTests" />
+      <option name="METHOD_NAME" value="sampleGetTestForPosts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -245,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SampleApiTests" />
-        <item itemvalue="JUnit.UserFilterTest" />
-        <item itemvalue="JUnit.NewUserScreen" />
         <item itemvalue="JUnit.SampleApiTests.samplePutTestForUsers" />
         <item itemvalue="JUnit.SampleApiTests.samplePostTestForComments" />
+        <item itemvalue="JUnit.SampleApiTests.sampleGetTestForPosts" />
+        <item itemvalue="JUnit.SampleApiTests" />
+        <item itemvalue="JUnit.UserFilterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -267,41 +337,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.18 at 15h 39m 54s.xml">
+    <history-entry file="SampleApiTests_samplePostTestForComments - 2019.04.20 at 08h 20m 09s.xml">
+      <configuration name="SampleApiTests.samplePostTestForComments" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 20m 43s.xml">
       <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.18 at 15h 40m 20s.xml">
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 22m 15s.xml">
       <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.18 at 15h 41m 25s.xml">
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 22m 54s.xml">
       <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.18 at 15h 42m 02s.xml">
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 25m 38s.xml">
       <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.18 at 15h 51m 59s.xml">
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 28m 28s.xml">
       <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.18 at 15h 53m 43s.xml">
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 29m 32s.xml">
       <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleApiTests - 2019.04.18 at 15h 54m 57s.xml">
-      <configuration name="SampleApiTests" configurationId="JUnit" />
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 31m 28s.xml">
+      <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NewUserScreen - 2019.04.18 at 15h 56m 03s.xml">
-      <configuration name="NewUserScreen" configurationId="JUnit" />
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 33m 03s.xml">
+      <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserFilterTest - 2019.04.18 at 15h 56m 34s.xml">
-      <configuration name="UserFilterTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SampleApiTests - 2019.04.18 at 15h 56m 58s.xml">
-      <configuration name="SampleApiTests" configurationId="JUnit" />
+    <history-entry file="SampleApiTests_samplePutTestForUsers - 2019.04.20 at 08h 33m 40s.xml">
+      <configuration name="SampleApiTests.samplePutTestForUsers" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18120806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -310,12 +381,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.07365439" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.296034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29461756" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
@@ -365,14 +436,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/ConfigurationReader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/utilities/ConfigurationReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
@@ -382,50 +446,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/Pages/DashBoardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/Driver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/Pages/UsersPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/BrowserUtilities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/BrowserUtilities.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/FixMethodOrder.java" />
     <entry file="file://$PROJECT_DIR$/configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/Utilities/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="317">
           <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -433,13 +465,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/FixMethodOrder.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="49" column="57" lean-forward="true" selection-start-line="49" selection-start-column="57" selection-end-line="49" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/SampleApiTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="83" column="63" lean-forward="true" selection-start-line="83" selection-start-column="63" selection-end-line="83" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/pages/DashBoardPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/pages/UsersPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/NewUserScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="731">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -448,18 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/UserFilterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/merchantesolutions/tests/SampleApiTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="60" column="46" lean-forward="true" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+        <state relative-caret-position="595">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

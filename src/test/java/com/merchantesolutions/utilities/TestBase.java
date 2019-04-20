@@ -1,10 +1,9 @@
-package com.merchantesolutions.Utilities;
+package com.merchantesolutions.utilities;
 
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 
-import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {

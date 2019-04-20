@@ -1,4 +1,4 @@
-package com.merchantesolutions.Utilities;
+package com.merchantesolutions.utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

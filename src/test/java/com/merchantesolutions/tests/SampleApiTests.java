@@ -13,7 +13,10 @@ import org.junit.Test;
 import java.util.Map;
 
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
+import static org.hamcrest.MatcherAssert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class SampleApiTests {
 
@@ -49,22 +52,37 @@ public class SampleApiTests {
         Response postResponse = given().contentType(ContentType.JSON).
                 body(comment).
                 when().post("/comments");
-            postResponse.then().log().all().statusCode(201);
+            postResponse.then().log().all()
+                    .header("Content-Type","application/json; charset=utf-8").statusCode(201);
+
+            Map<Object,Object> responseMap = postResponse.body().as(Map.class);
+            System.out.println(responseMap);
+            assertEquals(postId,responseMap.get("postId"));
+            assertEquals(id,responseMap.get("id"));
+            assertEquals(name,responseMap.get("name"));
+            assertEquals(email,responseMap.get("email"));
+            assertEquals(body,responseMap.get("body"));
     }
 
     @Test
     public void samplePutTestForUsers(){
+        String name = new Faker().name().fullName();
+        String email = new Faker().internet().emailAddress();
+        String username = new Faker().book().title();
         RestAssured.given().accept(ContentType.JSON).
                 when().body("{\n" +
-                "\"name\": \"Kaiser Soze\",\n" +
-                "\"email\": \"abc123123@gmail.com\",\n" +
-                "\"username\": \"kaplan\"\n" +
+                "\"name\": \""+ name +"\",\n" +
+                "\"email\": \""+ email + "\",\n" +
+                "\"username\": \"" + username + "\"\n" +
                 "}")
                 .log().all()
                 .pathParam("id","2")
                 .contentType(ContentType.JSON)
                 .put("/users/{id}")
-                .then().log().all().statusCode(200);
+                .then().log().all()
+                .header("Content-Type","application/json; charset=utf-8")
+                .body(containsString(name))
+                .assertThat().statusCode(200);
     }
 
 
