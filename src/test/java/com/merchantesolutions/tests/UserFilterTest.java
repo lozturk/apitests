@@ -52,13 +52,11 @@ public class UserFilterTest extends TestBase {
         usersPage.calendarFromBox.click();
         usersPage.setADayOfCurrentMonth(1).click();
         usersPage.calendarToBox.click();
-        usersPage.setADayOfCurrentMonth(18).click();
+        usersPage.setADayOfCurrentMonth(20).click();
         usersPage.filterButtonInUsersPage.click();
         List<String> userNamesCreatedBetweenDates = usersPage.getAllNames();
         System.out.println(userNamesCreatedBetweenDates);
         Assert.assertTrue(userNamesCreatedBetweenDates.contains(username));
-
     }
-
 
 }

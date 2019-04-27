@@ -11,7 +11,7 @@ public class DashBoardPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(id = "users")
+    @FindBy(xpath = "//body/div/div/ul/li[4]/a")
     public WebElement usersButton;
 
     @FindBy(xpath = "(//*[.='New User'])[1]")

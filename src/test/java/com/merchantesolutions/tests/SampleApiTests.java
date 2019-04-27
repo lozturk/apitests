@@ -2,10 +2,8 @@ package com.merchantesolutions.tests;
 
 import com.github.javafaker.Faker;
 import com.merchantesolutions.pojo.Comment;
-import com.merchantesolutions.pojo.User;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
-import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -54,7 +52,6 @@ public class SampleApiTests {
                 when().post("/comments");
             postResponse.then().log().all()
                     .header("Content-Type","application/json; charset=utf-8").statusCode(201);
-
             Map<Object,Object> responseMap = postResponse.body().as(Map.class);
             System.out.println(responseMap);
             assertEquals(postId,responseMap.get("postId"));
@@ -84,7 +81,4 @@ public class SampleApiTests {
                 .body(containsString(name))
                 .assertThat().statusCode(200);
     }
-
-
-
 }
